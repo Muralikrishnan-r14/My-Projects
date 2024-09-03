@@ -14,7 +14,7 @@ driver.get("https://web.whatsapp.com/")
 wait=WebDriverWait(driver,1000)
 
 target='"# Enter Contact name Exactly in contact book"'
-message="Lokesh bitch stfu"
+message="Enter the message that you want to send"
 number_of_times=100 #No. of times to send a message
 
 contact_path='//span[contains(@title,'+ target +')]'
